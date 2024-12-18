@@ -11,22 +11,22 @@ Ce projet constitue le backend d'une application de commerce électronique. Il f
 
  Microservices
 Le projet est basé sur une architecture de microservices comprenant :
-- **Config Service** : gestion centralisée de la configuration.
-- **Discovery Service** : découverte des services pour l'intercommunication.
-- **Billing Service** : gestion des factures et des paiements.
-- **Inventory Service** : gestion des stocks de produits.
-- **Customer Service** : gestion des données des clients.
+- Config Service : gestion centralisée de la configuration.
+- Discovery Service : découverte des services pour l'intercommunication.
+- Billing Service : gestion des factures et des paiements.
+- Inventory Service : gestion des stocks de produits.
+- Customer Service : gestion des données des clients.
 
  Technologies utilisées
-- **Langage** : Java
-- **Framework** : Spring Boot
-- **Base de données** :H2
-- **Gestion des dépendances** : Maven
-- **Authentification** : JWT (JSON Web Tokens)
+- Langage : Java
+- Framework : Spring Boot
+- Base de données :H2
+- Gestion des dépendances : Maven
+- Authentification : JWT (JSON Web Tokens)
 
  Prérequis
-- **JDK** : version 17 
-- **Base de données** : H2
+- JDK : version 17 
+- Base de données : H2
 
 ![Capture d'écran 202![Capture d'écran 2024-12-18 101444](https://github.com/user-attachments/assets/3857e664-742d-4efd-999b-ed62660615cd)
 ![Capture d'écran 2024-12-18 101237](https://github.com/user-attachments/assets/03df828e-4a01-44d6-b9d7-f65da8f13886)
@@ -44,8 +44,6 @@ Le projet est basé sur une architecture de microservices comprenant :
 3. Configurez les paramètres de la base de données dans `application.properties` :
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/ecom_db
-   spring.datasource.username=root
-   spring.datasource.password=your_password
    ```
 4. Compilez et packagez l'application :
    ```bash
